@@ -9,7 +9,7 @@ abstract class db_normal {
 	 * @return Object
 	 */
 	private function abrir_conexion() {
-		$this->conexion = mysqli_connect("localhost", "root", "", "examen");
+		$this->conexion = mysqli_connect("77.104.138.226", "gunaclou_d3s4f10", "Q+p+l,n+7k5f", "gunaclou_d3s4f10");
 	}
 	/**
 	 * Abre la conexion a la base de datos

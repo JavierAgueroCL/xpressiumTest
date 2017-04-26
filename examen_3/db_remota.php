@@ -76,7 +76,8 @@ abstract class db {
 		          }
 		          //$input = cleanString($input);
 		          $this->abrir_conexion();
-		          $output = mysql_real_escape_string($input);
+		          //$output = mysql_real_escape_string($input); QUITADA POR OBSOLETA
+							$output = $input;
 		          $this->cerrar_conexion();
 		      }
 		    $output = utf8_decode($output);
