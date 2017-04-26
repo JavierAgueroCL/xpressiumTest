@@ -1,0 +1,12 @@
+.spacer-10 {
+  height: 10px;
+}
+.navbar-brand img {
+  max-width: 100px;
+}
+.limitar-altura {
+    max-height: 100px;
+}
+.ocultar {
+  display: none;
+}
