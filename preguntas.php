@@ -1,4 +1,4 @@
-<section  data-step="1" data-intro="Puede ver las respuesta a las preguntas dentro de cada desafio">
+<section  data-step="2" data-intro="Puede ver las respuesta a las preguntas dentro de cada desafio">
   <h3>Desafío 1</h3>
   <p>
     Escribe el código necesario en jQuery para que el formulario envié la información al servicio web, analice la respuesta y le muestre un mensaje al usuario según el resultado. <br />
@@ -33,7 +33,7 @@
   });
   </pre>
   <div class="text-right">
-    <a href="/?ruta=examen1" type="button" class="btn btn-primary text-right"  data-step="1" data-intro="Ademas puede ver el codigo en funcionamiento">VER EL CODIGO FUNCIONANDO</a>
+    <a href="/?ruta=examen1" type="button" class="btn btn-primary text-right"  data-step="3" data-intro="Ademas puede ver el codigo en funcionamiento">VER EL CODIGO FUNCIONANDO</a>
   </div>
 </section>
 <hr>

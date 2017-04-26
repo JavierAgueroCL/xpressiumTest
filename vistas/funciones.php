@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once("examen_3/postular.class.php");
 
 $ubicacion = new postular();
@@ -54,5 +55,14 @@ function get_postulaciones() {
     </tr>';
   }
   return $out;
+}
+
+function run_tutorial(){
+  if(!isset($_SESSION['tutorial'])) {
+    ?><script>jQuery(function() { introJs().start(); });</script><?php
+    $_SESSION['tutorial'] = 1;
+  }else {
+    $_SESSION['tutorial'] = "";
+  }
 }
 ?>

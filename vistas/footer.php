@@ -4,4 +4,5 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/intro.min.js"></script>
 <script src="assets/js/main.js"></script>
+<?php run_tutorial(); ?>
 </html>
